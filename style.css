@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+
+
+body {
+    max-width: 9000%;
+    
+
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    padding: 4%;
+    border-spacing: 5%;
+    background: #FFFFFF;
+
+}
+
+.parent1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 2%;
+    padding-left: 2em;
+    padding-right: 2em;
+
+}
+
+a {
+    text-decoration: none;
+    padding-right: 3.5rem;
+
+}
+
+.line1 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #041330;
+
+}
+
+.line2 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5em;
+    color: #2E3A53;
+}
+
+.line3 {
+    border: 0.1em solid #155EEF;
+    border-radius: 0.5em;
+
+    color: #155EEF;
+    padding: 0.5em;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font: size 1rem;
+    line-height: 150%;
+
+    color: #155EEF;
+}
+
+.gparent {
+    display: flex;
+    width: 100%;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 5%;
+    align-items: center;
+    padding: 5em 2em;
+    justify-content: space-between;
+
+}
+
+.gfirstchild {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 7.5em;
+
+
+}
+
+.gptext1 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 150%;
+    letter-spacing: 0.0313em;
+    color: #2E3A53;
+    margin-bottom: 1rem;
+
+}
+
+.gptext2 {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5em;
+    line-height: 120%;
+    color: #155EEF;
+    margin-bottom: 2rem;
+
+}
+
+.gptext3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 130%;
+    color: #2E3A53;
+    margin-bottom: 2rem;
+}
+
+button {
+    color: #FFFFFF;
+    background-color: #155EEF;
+    padding: 2% 2.4%;
+    border-radius: 0.5em;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1em;
+    border: 0;
+
+
+}
+
+.gsecondchild {
+    width: 35%;
+
+
+
+
+}
+
+.ggparent {
+    display: flex;
+    width: 100%;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 5%;
+    padding: 4em 2em;
+}
+
+.ggfirstchild {
+    width: 40%;
+    border: 0.1em solid #155EEF;
+    border-right: none;
+    padding: 0.2em;
+
+
+
+
+}
+
+.ggsecondchild {
+    padding-left: 11%;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.ggptext1 {
+    width: 100%;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 187.5%;
+    line-height: 120%;
+    text-align: left;
+    margin-bottom: 5%;
+    color: #2E3A53;
+
+
+
+
+}
+
+.ggptext2 {
+    width: 100%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150%;
+    line-height: 150%;
+    text-align: justify;
+    color: #2E3A53;
+
+
+
+}
+
+.gggparent {
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 1%;
+    padding-left: 2em;
+    padding-right: 2em;
+    justify-content: space-between;
+
+}
+
+.imgg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+
+}
+
+.sj {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: #041330;
+
+
+}
