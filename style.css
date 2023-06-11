@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Halant:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
 
 
-body {
-    max-width: 84.375rem;
-    min-width: 84.375rem;
-
-}
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -60,7 +54,6 @@ a {
 .line3 {
     border: 0.1em solid #155EEF;
     border-radius: 0.5em;
-
     color: #155EEF;
     padding: 0.5em;
     font-family: 'Manrope';
@@ -68,7 +61,6 @@ a {
     font-weight: 700;
     font: size 1rem;
     line-height: 150%;
-
     color: #155EEF;
 }
 
@@ -183,7 +175,7 @@ button {
     font-family: 'Halant';
     font-style: normal;
     font-weight: 600;
-    font-size: 187.5%;
+    font-size: 119.5%;
     line-height: 120%;
     text-align: left;
     margin-bottom: 5%;
@@ -206,6 +198,37 @@ button {
 
 
 
+}
+
+.posi {
+    display: flex;
+    width: 100%;
+    border: 0.2em solid #155EEF;
+    border-radius: 0.8em;
+    margin-bottom: 5%;
+    align-items: center;
+    padding: 5em 2em;
+    justify-content: space-between;
+    
+
+}
+
+.posifirstchild {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px 14px;
+    gap: 24px;
+    position: ;
+    width: 407px;
+    background: #F9FBFF;
+}
+
+.posisecondchild {
+    width: 40%;
+    border: 0.1em solid #155EEF;
+    border-right: none;
+    padding: 0.2em;
 }
 
 .gggparent {
