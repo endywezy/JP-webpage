@@ -81,7 +81,6 @@ a {
     justify-content: space-between;
     padding-right: 7.5em;
 
-
 }
 
 .gptext1 {
@@ -127,15 +126,10 @@ button {
     font-weight: 700;
     font-size: 1em;
     border: 0;
-
-
 }
 
 .gsecondchild {
     width: 35%;
-
-
-
 
 }
 
@@ -158,9 +152,6 @@ button {
     border: 0.1em solid #155EEF;
     border-right: none;
     padding: 0.2em;
-
-
-
 
 }
 
@@ -195,8 +186,6 @@ button {
     line-height: 150%;
     text-align: justify;
     color: #2E3A53;
-
-
 
 }
 
@@ -233,7 +222,6 @@ button {
 
 .gggparent {
     display: flex;
-    /* width: 100%; */
     align-items: center;
     border: 0.2em solid #155EEF;
     border-radius: 0.8em;
