@@ -138,7 +138,7 @@ button {
     display: flex;
     width: 100%;
     border: 0.2em solid #155EEF;
-    border-radius: 0.8em;
+    border-radius: 12.8px;
     margin-bottom: 1%;
     display: flex;
     justify-content: space-around;
@@ -191,7 +191,7 @@ button {
     display: flex;
     width: 100%;
     border: 0.2em solid #155EEF;
-    border-radius: 0.8em;
+    border-radius: 12.8px;
     margin-bottom: 5%;
     padding: 4em 2em;
     position: relative;
@@ -206,7 +206,7 @@ button {
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     line-height: 120%;
     letter-spacing: 0.0313rem;
     color: #2E3A53;
