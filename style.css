@@ -23,6 +23,7 @@ main {
     margin-bottom: 2%;
     padding-left: 2em;
     padding-right: 2em;
+    background-color: #F9FBFF;
 
 }
 
@@ -81,6 +82,7 @@ a {
     justify-content: space-between;
     padding-right: 7.5em;
 
+
 }
 
 .gptext1 {
@@ -126,6 +128,7 @@ button {
     font-weight: 700;
     font-size: 1em;
     border: 0;
+
 }
 
 .gsecondchild {
@@ -172,9 +175,6 @@ button {
     margin-bottom: 5%;
     color: #2E3A53;
 
-
-
-
 }
 
 .ggptext2 {
@@ -195,42 +195,61 @@ button {
     border: 0.2em solid #155EEF;
     border-radius: 0.8em;
     margin-bottom: 5%;
-    align-items: center;
-    padding: 5em 2em;
-    justify-content: space-between;
-    
+    padding: 4em 2em;
+    position: relative;
 
 }
 
 .posifirstchild {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 22px 14px;
-    gap: 24px;
-    position: ;
-    width: 407px;
+    padding: 2% 7% 5% 2%;
+    gap: 150%;
+    width: 54%;
+    margin-bottom: 7%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 120%;
+    letter-spacing: 0.0313rem;
+    color: #2E3A53;
     background: #F9FBFF;
+    z-index: 1;
+
 }
 
 .posisecondchild {
-    width: 40%;
-    border: 0.1em solid #155EEF;
-    border-right: none;
-    padding: 0.2em;
+    width: 53%;
+    position: absolute;
+    left: 44%;
+    top: 24%;
+
+}
+
+.positext {
+    color: #041330;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 120%;
+}
+
+p {
+    margin-bottom: 5%;
 }
 
 .gggparent {
     display: flex;
+    width: 100%;
     align-items: center;
     border: 0.2em solid #155EEF;
     border-radius: 0.8em;
     margin-bottom: 1%;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding: 1em 3rem ;
     justify-content: space-between;
 
 }
+
 
 .imgg {
     display: flex;
@@ -248,6 +267,5 @@ button {
     font-size: 1.5rem;
     line-height: 150%;
     color: #041330;
-
 
 }
