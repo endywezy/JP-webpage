@@ -240,6 +240,7 @@ p {
     display: flex;
     width: 100%;
     align-items: center;
+    text-align: center;
     border: 0.2em solid #155EEF;
     border-radius: 0.8em;
     margin-bottom: 1%;
@@ -265,5 +266,6 @@ p {
     font-size: 1.5rem;
     line-height: 150%;
     color: #041330;
+    margin-top: 1.5%;
 
 }
